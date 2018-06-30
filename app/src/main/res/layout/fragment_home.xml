@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beach_pebbles"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/top_rated_parks_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray">
+
+            <ImageView
+                android:id="@+id/top_rated_action_icon"
+                android:contentDescription="icon_for_location"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_star_black_24dp"
+                />
+
+            <TextView
+                android:id="@+id/action_locations_text"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/top_rated_action_icon"
+                android:layout_height="wrap_content"
+                android:text="Display Top \nRated car parks"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nearest_carpark_locations"
+            android:layout_width="match_parent"
+            android:layout_below="@id/top_rated_parks_layout"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/nearest_action_icon"
+                android:contentDescription="Icon for nearest location"
+                android:layout_width="50dp"
+                android:src="@drawable/ic_parking_places_24dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/nearest_locations_text"
+                android:layout_width="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/nearest_action_icon"
+                android:layout_height="wrap_content"
+                android:text="Display Nearest \n Car parks"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

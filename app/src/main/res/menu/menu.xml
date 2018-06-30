@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/parking_home_menu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home_nav_text" />
+
+        <item
+            android:id="@+id/help_menu"
+            android:icon="@drawable/ic_help_24dp"
+            android:title="@string/help_nav_text" />
+
+        <item
+            android:id="@+id/info_menu"
+            android:icon="@drawable/ic_info_24dp"
+            android:title="@string/info_nav_text" />
+
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="@string/settings_nav_text" />
+        <item android:title="Payment">
+            <menu>
+                <item
+                    android:id="@+id/pay_menu"
+                    android:icon="@drawable/ic_payment_24dp"
+                    android:title="@string/payment_nav_text" />
+            </menu>
+        </item>
+
+    </group>
+</menu>

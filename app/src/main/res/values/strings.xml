@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">KSCPS</string>
+    <string name="home_nav_text">Home</string>
+    <string name="payment_nav_text">Pay Parking Fee</string>
+    <string name="settings_nav_text">Settings</string>
+    <string name="problem_report_nav_text">Report Problem</string>
+    <string name="info_nav_text">About KSCPS</string>
+    <string name="help_nav_text">Help</string>
+    <string name="header_nav_text">Park your car</string>
+    <string name="expance_name">Expance</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_kscps">
+        This Application shows car parking places nearest to
+        your location.
+        \n \n
+        More information about the parking place like other
+        services offered i.e cleaning services, security level,
+        charges, ans feedback from other users is also given.
+        \n \n
+        This helps you to identify a favourable parking place
+        for your car, that meets your demands within the least time
+        in the event that you are not familiar with the place.
+
+    </string>
+    <string name="user_help">To view parking places near your location</string>
+    <string name="settings_text">Settings for the app</string>
+    <string name="parking_map_placeholder">Shows map of nearest parking places</string>
+    <string name="payment_placeholder">Make payemnet via Mpesa</string>
+    <string name="parking_home_placeholder">
+        Manage your Parking spaces, \n
+        Configure map properties to show.
+    </string>
+    <string name="parking_places_action_btn">P</string>
+    <string name="parking_btn_descriptions">View \nParking \nLocations</string>
+    <string name="to_rated_text">View \nTop Rated \nparkings</string>
+    <string name="car_park_hint_text">Enter car park name</string>
+    <string name="enable_gps_network_message">Smart Car Park App needs to get your location, \\nenable GPS and data or wifi</string>
+</resources>
